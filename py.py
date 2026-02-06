@@ -249,3 +249,43 @@
 
 
 
+# # 11))
+
+
+# # *       * 
+# # * *     *
+# # *   *   *
+# # *     * *
+# # *       *
+
+
+# n = int(input("enter a number:"))
+
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if j == 1 or j == n or i == j:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+
+# A = [[1,2,3],[4,5,6],[0,4,5]]
+# row = len(A)
+# col = len(A)
+# B = [[0]*col]*row
+# result = [0*col]*row
+# for i in range(0,len(A),+1):
+#     for j in range(0,len(A[i]),+1):
+#         if A[i][j] != 0:
+#             result = A
+#         else:
+#             result = B
+#             break
+# print(result)
+
+
+
+
+
