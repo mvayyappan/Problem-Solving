@@ -411,16 +411,16 @@
 # 20)count  palindrome
 
 
-def palindrome(a):
-    if len(a) == 0:
-        print("invalid")
-    else:
-        for i in range(0,len(a),+1):
-            if a[i] != a[len(a)-1-i]:
-                print(False)
-                break
-            print(True)
-palindrome("123")
+# def palindrome(a):
+#     if len(a) == 0:
+#         print("invalid")
+#     else:
+#         for i in range(0,len(a),+1):
+#             if a[i] != a[len(a)-1-i]:
+#                 print(False)
+#                 break
+#             print(True)
+# palindrome("123")
         
 
 

@@ -695,3 +695,155 @@
 #     for k in range(i,0,-1):
 #         print(chr(k+64),end="")
 #     print()
+
+
+
+
+
+
+
+# # 26)
+
+
+# # EEEEE
+# # *DDDD
+# # **CCC
+# # ***BB
+# # ****A
+
+
+# n = int(input("enter a number:"))
+# for i in range(n):
+#     for j in range(i):
+#         print("*",end="")
+#     for k in range(n-i):
+#         print(chr(n-i+64),end="")
+#     print()
+
+
+
+
+
+
+
+
+
+
+# # 27)
+
+
+# # EDCBA
+# # *DCBA
+# # **CBA
+# # ***BA
+# # ****A
+
+
+
+
+
+# n= int(input("enter a number:"))
+
+# for i in range(n,0,-1):
+#     count = i
+#     for j in range(1,n-i+1):
+#         print("*",end="")
+#     for k in range(i,0,-1):
+#         print(chr(k+64),end="")
+#     print()
+
+
+
+
+
+
+
+
+
+
+
+# # 28)
+
+
+# # 1 2 3 4 *
+# # 1 2 3 * 5
+# # 1 2 * 4 5
+# # 1 * 3 4 5
+# # * 2 3 4 5
+
+
+
+# n = int(input("enter a number:"))
+
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if j == n-i+1:
+#             print("*",end=" ")
+#         else:
+#             print(j,end=" ")
+#     print()
+
+
+
+
+
+
+
+# # 29)
+
+
+# # * 1 * 2 *
+# # 3 * 4 * 5
+# # * 6 * 7 *
+# # 8 * 9 *10
+# # * 11 * 12 *
+
+
+# n = int(input("enter a number:"))
+
+# count = 1
+
+# for i in range(n):
+#     for j in range(n):
+#         if (i+j)%2==0:
+#             print("*",end=" ")
+#         else:
+#             print(count,end=" ")
+#             count = count + 1
+#     print()
+
+
+
+
+
+
+
+
+# # 30)
+
+
+# # * A * B *
+# # C * D * E
+# # * F * G *
+# # H * I * J
+# # * K * L *
+
+
+
+
+
+# n = int(input("enter a number:"))
+# count = 0
+# for i in range(n):
+#     for j in range(n):
+#         if (i+j)%2==0:
+#             print("*",end=" ")
+#         else:
+#             print(chr(count + 65),end=" ")
+#             count = count + 1
+#     print()
+
+
+
+
+    
