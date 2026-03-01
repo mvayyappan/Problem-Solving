@@ -13,6 +13,7 @@
 
 
 
+
 # name = "Aanchal Sharma"
 # dob = "24/03/1999"
 # parts = name.split()
@@ -335,6 +336,32 @@
 #     for j in range(len(arr[i])-1,-1,-1):
 #         print(arr[i][j],end="")
 #     print(end = " ")
+
+
+
+
+
+# def unique_index(s):
+#     count = {}
+#     if len(s) == 0:
+#         print("invalid input")
+#     elif len(s) == 1:
+#         print(0)
+#     else:
+#         for i in range(0,len(s),+1):
+#             if s[i] in count:
+#                 count[s[i]] = count[s[i]] + 1
+#             else:
+#                 count[s[i]] = 1
+#     print(count)
+#     for i in range(0, len(s)):
+#         if count[s[i]] == 1:
+#             print(i)
+
+#     return -1
+
+
+# unique_index("aa1b1bcc")
 
 
 

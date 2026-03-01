@@ -16,7 +16,7 @@
 
 
 
-# # 2)) sum list +num
+# # 2)) sum list positive num
 
 # def sum_list_positive_numbers(l):
 #     sum = 0
@@ -168,6 +168,9 @@
 
 
 
+
+
+
 # # 10)
 
 # def cumulative_product(l):
@@ -178,6 +181,9 @@
 #         lst.append(mul)
 #     print(lst)
 # cumulative_product([1,2,3,4])
+
+
+
 
 
 
@@ -196,6 +202,7 @@
 # max([1,2,3,4,5])
 
     
+
 
 
 
@@ -248,6 +255,7 @@
 
 
 
+
 # # 14)  unique maximum number
 
 # def unique_max(l):
@@ -276,7 +284,6 @@
 #         print("no unique number")
 #     else:
 #         print("unique max number:", result)
-
         
 # unique_max([1,2,3,4,5,5,4,3,2])
 
@@ -382,7 +389,40 @@
 
 
 
-# 19) missing number in list
+
+# # 19)  Count Strings with Same Start and End
+
+# def same_start_and_end(arr):
+#     if len(arr) == 0:
+#         print("invalid input")
+#     else:
+#         count = 0
+#         for i in range(0,len(arr),+1):
+#             if arr[i][0] == arr[i][-1]:
+#                 count = count + 1 
+#         print(count)
+        
+# same_start_and_end(["121","aba","123451"])
+
+
+
+
+
+# 20)count  palindrome
+
+
+def palindrome(a):
+    if len(a) == 0:
+        print("invalid")
+    else:
+        for i in range(0,len(a),+1):
+            if a[i] != a[len(a)-1-i]:
+                print(False)
+                break
+            print(True)
+palindrome("123")
+        
+
 
 
 
