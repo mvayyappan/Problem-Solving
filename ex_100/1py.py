@@ -693,3 +693,25 @@
 #             print(j,end="")
 #         print()
 # pattern(4)
+
+
+
+# Input -> “Abc def”
+# Output -> “cbA fed”
+
+s = "Abc def"
+txt = "" 
+lst = []
+for i in range(0, len(s)):
+    if s[i] == " ":
+        lst.append(txt)
+        txt = "" 
+    else:
+        txt = txt + s[i]
+lst.append(txt)
+result = ""
+for j in range(0, len(lst)):
+    for k in range(len(lst[j]) - 1, -1, -1):
+        result += lst[j][k]
+    result += " "
+print(result)

@@ -885,83 +885,40 @@
 
 
 
-# 89)
-
-
-
-# *     *
-# **   **
-# *** ***
-# *******
-# *** ***
-# **   **
-# *     *
-
-
-
-
 # # 90)
 
 
-# # * * * * * 
-# # * * * * 
-# # * * *
-# # * *
-# # *
-# # * *
-# # * * *
-# # * * * *
-# # * * * * *
+
+# # *     *
+# # **   **
+# # *** ***
+# # *******
+# # *** ***
+# # **   **
+# # *     *
 
 
-
-
-# n = int(input("enter a number:"))
-
-# for i in range(n,1,-1):
-#     for j in range(1,i+1):
-#         print("*",end=" ")
-#     print()
-# for i in range(1,n+1):
-#     for j in range(1,i+1):
-#         print("*",end=" ")
+# n = int(input("Enter a number: "))
+# for i in range(1, n):
+#     for j in range(1, i+1):
+#         print("*", end="")
+#     for k in range(1, 2*(n-i)):
+#         print(" ", end="")
+#     for j in range(1, i+1):
+#         print("*", end="")
 #     print()
 
+# for i in range(1, 2*n):
+#     print("*", end="")
+# print()
 
-
-
-
-
-
-
-
-
-
-# # 91)
-
-
-# # * * * * 
-# #  * * * 
-# #   * *
-# #    *
-# #   * *
-# #  * * *
-# # * * * *
-
-
-# n = int(input("enter a number:"))
-
-# for i in range(n,1,-1):
-#     for j in range(1,n-i+1):
-#         print(" ",end="")
-#     for k in range(1,i+1):
-#         print("*",end=" ")
-#     print()
-# for i in range(1,n+1):
-#     for j in range(1,n-i+1):
-#         print(" ",end="")
-#     for k in range(1,i+1):
-#         print("*",end=" ")
+# for i in range(n-1, 0, -1):
+#     for j in range(1, i+1):
+#         print("*", end="")
+#     for k in range(1, 2*(n-i)):
+#         print(" ", end="")
+#     for j in range(1, i+1):
+#         print("*", end="")
 #     print()
 
 
