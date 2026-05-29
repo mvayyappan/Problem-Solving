@@ -91,7 +91,6 @@
 
 s1 = "abcde"
 s2 = "bcdea"
-
 res = False
 if len(s1) == len(s2): 
     for i in range(0,len(s1)):
@@ -100,9 +99,4 @@ if len(s1) == len(s2):
         if s2 == temp:
             res = True
             break
-        
 print(res)
-        
-
-
-
